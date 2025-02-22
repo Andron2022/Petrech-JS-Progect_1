@@ -88,7 +88,7 @@ function rememberMyFilms() {
   }
 }
 
-//rememberMyFilms();
+rememberMyFilms();
 
 function detectPersonalLevel() {
   if (personalMoveDB.count < 10) {
@@ -102,14 +102,13 @@ function detectPersonalLevel() {
   }
 }
 
-//detectPersonalLevel();
+detectPersonalLevel();
 
 function showMyDB(hidden) {
   if (!hidden) console.log(personalMoveDB);
 }
 
 showMyDB(personalMoveDB.privat);
-//console.log(personalMoveDB);
 
 function writeYourGenres() {
   for (let i = 1; i <= 3; i++) {
